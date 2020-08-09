@@ -1,99 +1,122 @@
 * {
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: "Open Sans",
-    sans-serif; 
-    color: #444;
-    line-height: 1.375;
-    margin: 20px; 
-    text-align: center;
-  }
-  
-  h1,h3 { 
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-family: 'Playfair Display', serif;
-     }
+  box-sizing: border-box;
+}
+/* Links Pseudo classes*/
+a:link {
+  color: darkblue;
+}
+a:visited {
+  color: red;
+}
+a:hover {
+  color: blue;
+}
+a:active {
+  color: darkslategray;
+}
 
-  nav {
-    border-bottom: black 2px solid;
-    background-color: white;
-    margin-left: 20px;
-    margin-right: 20px;
-    /*min-height: 330px;*/
-  }
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #444;
+  line-height: 1.375;
+  margin: 20px;
+  text-align: center;
+}
 
-  ul{
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-  }
+h1,
+h3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: "Playfair Display", serif;
+}
 
-  nav li {
-    display: inline;
-    padding: 0 5px 0 5px;
-    font-size: 14px;
-  }
+nav {
+  /* border-bottom: black 2px solid; */ /*temporarily removing so I can use the hr element to meet the thinkful requirement. Nothing actually wrong with how you did this. */
+  background-color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+  /*min-height: 330px;*/
+}
 
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
 
-  .circle {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    color: black;
-    text-align: center;
-    line-height: 50px;
-    background:black;
-    border: 1px black solid;
+nav li {
+  display: inline;
+  padding: 0 5px 0 5px;
+  font-size: 14px;
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  color: black;
+  text-align: center;
+  line-height: 50px;
+  background: black;
+  border: 1px black solid;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section {
+  padding: 5px;
+  margin: 20px 0;
+}
+
+.projectTitle {
+  font-family: "Catamaran", sans-serif;
+  font-weight: lighter;
+}
+img {
+  width: 100%;
+}
+
+span {
+  font-weight: bold;
+}
+
+#intro {
+  text-align: left;
+}
+/*footer {
+  border-top: 2px solid black;
+} */ /*temporarily removing so I can use the hr element to meet the thinkful requirement. Nothing actually wrong with how you did this. */
+
+hr {
+  border: 1px solid black;
+}
+@media only screen and (min-width: 992px) {
+  #intro {
+    max-width: 900px;
     margin-left: auto;
     margin-right: auto;
   }
-
-  section {
-    padding: 5px;
-    margin: 20px 0;
+  .allProjects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 
+  .circle {
+    display: none;
+  }
   .projectTitle {
-    font-family: 'Catamaran', sans-serif;
-    font-weight: lighter;
+    text-align: center;
   }
-  img {
-    width: 100%;
-  }
+}
 
-  span {
-    font-weight: bold;;
-  }
-    footer {
-      border-top: 2px solid black;
-    }
+/* Color Palette
+--maroon-x-11: hsla(330, 62%, 44%, 1);
+--viridian-green: hsla(181, 75%, 35%, 1);
+--yellow-munsell: hsla(50, 98%, 49%, 1);
+--tenne-tawny: hsla(25, 97%, 41%, 1);
+--white: hsla(0, 0%, 99%, 1); */
 
-    @media only screen and (min-width: 992px) {
-      
-
-      #intro {
-        max-width: 900px;
-        margin-left:auto;
-        margin-right:auto;
-      }
-      .allProjects {
-       display: grid;
-       grid-template-columns: 1fr 1fr;
-     } 
-
-     .circle {
-       display: none;
-     }
-     .projectTitle{
-       text-align: center;
-     }
-    }
-
-
-    /* Extra small devices (phones, 600px and down) 
+/* Extra small devices (phones, 600px and down) 
 @media only screen and (max-width: 600px) {...}
 
 /* Small devices (portrait tablets and large phones, 600px and up)
