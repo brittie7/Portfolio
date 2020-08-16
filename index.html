@@ -25,164 +25,131 @@
     ></script>
   </head>
   <body>
-    <!-- Here is the navigation section. To edit it, revise below-->
-
-    <nav>
-      <div id="bnc">
-        <h1>Brittany Coleman</h1>
-      </div>
-      <ul id="navBar">
-        <li class="navBarItem"><a href="/index.html">Home</a></li>
-        <li class="navBarItem"><a href="#intro">About</a></li>
-        <!--<li class="navBarItem">Blog</li> Remove blog until ready to introduce blog page 08/9/20-->
-        <li class="navBarItem"><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-    <hr />
-    <main>
-      <div id="intro">
-        <p>
-          <!--all content added after "experiences" added to meet bloc's requirements. Not intended to be included final design. Remember to remove-->
-          <b>About Me:</b> Hi, my name is Brittany and I am a web developer and
-          UI/UX devotee based in North Carolina. I love using code to create
-          delightful digital experiences.I've grown up in the technology space
-          having worked as a business analyst for several years. In that role, I
-          acted as a liaison between IT developers and business users,
-          translating business needs into technical requirements. After workign
-          with developers, I decided I wanted to develop my own technical skills
-          and began the web developer track at Bloc. Given my experience and
-          willingness to work with others, I know that I have a lot to offer a
-          team. Thank you for visiting my site. Check out my portfolio below to
-          learn more.
-        </p>
-
-        <!--ol added to meet bloc's requirements. not intended to be part of final design. Remember to remove-->
-
-        <ol>
-          <li>Starwars Quiz App</li>
-          <li>TBD</li>
-          <li>TBD</li>
-          <li>TBD</li>
-        </ol>
-      </div>
-      <!-- Here are the projects. When you want to add a new project, add it below-->
-      <div class="allProjects">
-        <section id="p1">
-          <div class="project">
-            <h2 class="projectTitle">Star Wars Quiz App</h2>
-            <div class="projectAsset">
-              <!-- Replace with a real picture -->
-              <img
-                src="https://via.placeholder.com/1500"
-                alt="starwars quiz app interface"
-              />
-            </div>
-            <p class="projectDescription">
-              <span>Project Description: </span>A trivia app that lets users
-              test their knowledge of Star Wars. Development of this appication
-              was completed as a requirement of the
-              <a href="https://www.bloc.io/">Bloc Web Developer Track</a>
-              curriculum. Tools used on this project include HTML, CSS,
-              JavaScript and jQuery.
-            </p>
-            <div class="projectLinks">
-              <a href="https://github.com/brittie7/Starwars-Quiz-App"
-                >Project Repo</a
-              >|
-              <a href="https://brittie7.github.io/Starwars-Quiz-App/"
-                >View Live Site</a
-              >
-            </div>
+    <!-- NAVIGATION-->
+    <header>
+      <nav>
+        <ul id="navBar">
+          <li class="navBarItem">
+            <a href="/index.html" class="a-nav">Home</a>
+          </li>
+          <li class="navBarItem"><a href="#box" class="a-nav">About</a></li>
+          <!--add later when ready to introduce blog <li class="navBarItem"><a href="/blog" class="a-nav">Blog</a></li> -->
+          <li class="navBarItem"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="box">
+      <p class="intro">
+        <!--all content added after "experiences" added to meet bloc's requirements. Not intended to be included final design. Remember to remove-->
+        <b>Brittany Coleman</b> is a web developer and UI/UX devotee based in
+        Winston-Salem, North Carolina. She loves using code to create delightful
+        digital experiences.
+      </p>
+      <p class="about">
+        I have a passion for web development and am particularly interested in
+        e-commerce. I am a quick leaner with a solid work ethic and a bias for
+        teamwork. When I'm not coding, I'm either reading, practicing my French
+        or FaceTiming with my adorable niece and nephews. If you are interested
+        in collaborating on a project, please
+        <a href="#contact">contact me</a>.
+      </p>
+      <!--PROJECTS-->
+      <!--PROJECT 1-->
+      <section id="p1">
+        <div class="container">
+          <h2 class="projectTitle">Project Title</h2>
+          <p class="projectDescription">
+            A trivia app that lets users test their knowledge of Star Wars.
+            Development of this application was completed as a requirement of
+            the
+            <a href="https://www.bloc.io/">Bloc Web Developer Track</a>
+            curriculum. Tools used on this project include HTML, CSS, JavaScript
+            and jQuery.
+          </p>
+          <div class="projectLinks">
+            <a href="https://github.com/brittie7/Starwars-Quiz-App"
+              >Project Repo</a
+            >|
+            <a href="https://brittie7.github.io/Starwars-Quiz-App/"
+              >View Live Site</a
+            >
           </div>
-        </section>
+        </div>
+        <div class="container container-double">
+          <img src="Placeholder.jpg" alt="starwars quiz app interface" />
+        </div>
+      </section>
+      <!--PROJECT 2-->
+      <section id="p2">
+        <div class="container">
+          <h2 class="projectTitle">Project Title</h2>
+          <p class="projectDescription">
+            A trivia app that lets users test their knowledge of Star Wars.
+            Development of this application was completed as a requirement of
+            the
+            <a href="https://www.bloc.io/">Bloc Web Developer Track</a>
+            curriculum. Tools used on this project include HTML, CSS, JavaScript
+            and jQuery.
+          </p>
+          <div class="projectLinks">
+            <a href="https://github.com/brittie7/Starwars-Quiz-App"
+              >Project Repo</a
+            >|
+            <a href="https://brittie7.github.io/Starwars-Quiz-App/"
+              >View Live Site</a
+            >
+          </div>
+        </div>
+        <div class="container container-double">
+          <img src="Placeholder.jpg" alt="starwars quiz app interface" />
+        </div>
+      </section>
 
-        <section id="p2">
-          <div class="project">
-            <div class="circle"></div>
-            <h2 class="projectTitle">Project 2</h2>
-            <div class="projectAsset">
-              <img
-                src="https://via.placeholder.com/1500"
-                alt="starwars quiz app interface"
-              />
-            </div>
-            <p class="projectDescription">
-              <span>Project Description: </span>Lorem ipsum, dolor sit amet
-              consectetur adipisicing elit. Provident voluptatem repellat,
-              soluta eos, molestiae explicabo quos accusamus vel cumque
-              consequuntur non aspernatur voluptatibus ullam odit impedit
-              perspiciatis? Aut, soluta ipsum.
-            </p>
-            <div class="projectLinks">
-              <a href="https://github.com/brittie7/">Project Repo</a>|
-              <a href="https://brittie7.github.io/">View Live Site</a>
-            </div>
-          </div>
-        </section>
-        <section id="p3">
-          <div class="project">
-            <div class="circle"></div>
-            <h2 class="projectTitle">Project 3</h2>
-            <div class="projectAsset">
-              <img
-                src="https://via.placeholder.com/1500"
-                alt="starwars quiz app interface"
-              />
-            </div>
-            <p class="projectDescription">
-              <span>Project Description: </span>Lorem ipsum, dolor sit amet
-              consectetur adipisicing elit. Provident voluptatem repellat,
-              soluta eos, molestiae explicabo quos accusamus vel cumque
-              consequuntur non aspernatur voluptatibus ullam odit impedit
-              perspiciatis? Aut, soluta ipsum.
-            </p>
-            <div class="projectLinks">
-              <a href="https://github.com/brittie7/">Project Repo</a>|
-              <a href="https://brittie7.github.io/">View Live Site</a>
-            </div>
-          </div>
-        </section>
-        <section id="p4">
-          <div class="project">
-            <div class="circle"></div>
-            <h2 class="projectTitle">Project 4</h2>
-            <div class="projectAsset">
-              <img
-                src="https://via.placeholder.com/1500"
-                alt="starwars quiz app interface"
-              />
-            </div>
-            <p class="projectDescription">
-              <span>Project Description: </span>Lorem ipsum, dolor sit amet
-              consectetur adipisicing elit. Provident voluptatem repellat,
-              soluta eos, molestiae explicabo quos accusamus vel cumque
-              consequuntur non aspernatur voluptatibus ullam odit impedit
-              perspiciatis? Aut, soluta ipsum.
-            </p>
-            <div class="projectLinks">
-              <a href="https://github.com/brittie7/">Project Repo</a>|
-              <a href="https://brittie7.github.io/">View Live Site</a>
-            </div>
-          </div>
-        </section>
-      </div>
+      <!-- Contact -->
+      <section id="contact">
+        <div class="container">
+          <h2>Contact Form</h2>
+          <p class="projectDescription">
+            If you would like to discuss a project, please reach out using the
+            form provided or
+            <a
+              href="mailto:someone@example.com?Subject=Hi,%20Brittany"
+              target="_blank"
+              >send me an email</a
+            >. I'm looking forward to hearing from you!
+          </p>
+          <div class="contactDetails"></div>
+        </div>
+        <form
+          action="https://formspree.io/brittany.coleman@alumni.duke.edu"
+          method="post"
+          class="container container-double"
+        >
+          <label for="user-name">Name:</label>
+          <input id="user-name" type="text" name="name" />
+
+          <label for="user-email">Email:</label>
+          <input id="user-email" type="text" name="email" />
+
+          <label for="user-message">Message:</label>
+          <textarea id="user-message" name="message"></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
     </main>
-    <hr />
-    <!-- ---- footer ---- -->
     <footer>
       <h3>Contact</h3>
-      <div class="contactDetails">
+      <div>
         <a
           href="mailto:someone@example.com?Subject=Hello%20again"
           target="_blank"
           >brittany.coleman@alumni.duke.edu</a
         >
       </div>
-      <div class="contactDetails">
+      <div>
         <a href="https://github.com/brittie7/" target="_blank">GitHub</a>|<a
           href="https://www.linkedin.com/in/brittanyncoleman/"
           target="_blank"
-          id="contact"
           >LinkedIn</a
         >
       </div>
